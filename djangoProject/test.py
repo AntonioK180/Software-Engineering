@@ -44,6 +44,8 @@ class ApiTestCase(TestCase):
         longest = {
             "size": len(data[0]["title"]),
             "value": data[0]["title"]
+
+
         }
 
         for post in data:
